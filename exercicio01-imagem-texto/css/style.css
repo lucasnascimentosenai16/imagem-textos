@@ -1,0 +1,69 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    
+}
+
+.cabeçario {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.cabeçario ul {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.botao-contato {
+    width: 90px;
+    background-color: rgb(0, 110, 255);
+    border-radius: 8px;
+    color: white;
+    border: none;
+    padding: 10px;
+    
+}
+
+.secao-sobre {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: space-around;
+    
+
+}
+
+
+.caixa-texto h2 {
+    
+    font-size: 70px;
+    display: flex;
+    flex-direction: column;
+
+
+    
+}
+.caixa-texto span {
+    color: rgb(0, 110, 255);
+}
+
+.caixa-texto p {
+    width: 600px;
+    height: 200px;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.caixa-imagem img {
+    width: 600px;
+    height: 600px;
+    
+
+}
+
